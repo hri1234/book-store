@@ -1,0 +1,51 @@
+Hello , every one Nice to meet you my Name is Hritik Pandey . I did this project in MERN technology this is simple book store with user and admin  panel product upload , category upload , graph , order all manage by admin 
+
+BACKEND Folder Structure 
+
+config
+controllers
+middlewares
+models
+routes
+utils
+index
+
+command to install npm = npm install 
+
+
+ ---------------------------------------------------------------------------------------------------------------------------
+Frontend Folder Structure 
+
+src (incide src )
+-components
+-pages
+
+-redux(incide redux)
+-api (in api  folder there are all request which i send through server by RTK query handler)
+-features(incide this folder all slices and action will display)\
+-store(this will store data which comes through action to avoiding props drilling)
+
+Utils(this folders sometimes act as middleware for in frontend)
+
+app(MAIN DRIVEN FOLDER)
+-App.js(Main component of the application, where)
+
+command to install used node modules = npm install(frontend)
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+.ENV
+
+PORT=5000
+MONGO_URI='mongodb+srv://pawaryash2411:yash123456789@cluster0.1z5taia.mongodb.net/HrithikSirDB'
+NODE_ENV=development
+JWT_SECRET=abac12afsdkjladf
+PAYPAL_CLIENT_ID=
+
+
+now with finaly cd on main folder then try command = NPM RUN DEV 
+
+
+
+Thanks 
+Hritik pandey Developer
